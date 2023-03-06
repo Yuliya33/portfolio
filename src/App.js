@@ -8,7 +8,6 @@ import About from './components/About';
 import Container from './components/Container';
 import Skills from './components/Skills';
 import Work from './components/Work';
-import Bouton from './components/Bouton';
 import Footer from './components/Footer';
 
 
