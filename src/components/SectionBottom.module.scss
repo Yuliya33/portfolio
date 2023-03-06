@@ -1,0 +1,48 @@
+.sectionbottom{
+    width: 100%;
+    height: 200px;    
+    position: relative;
+    
+}
+
+.clipath1{
+    background-color: #f6e6e0;
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 16%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 16%);
+        background-color: #48d8a4;
+    
+    }
+}
+.clipath2{
+    background-color:#eeb4aa;
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 34%, 22% 100%, 0 45%, 0 0);
+        clip-path: polygon(50% 0%, 100% 0, 100% 34%, 22% 100%, 0 45%, 0 0);
+        background-color: #f6e6e0;
+    
+    }
+    
+}
+.clipath3{
+    background-color:#7689d8;
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 54%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 54%, 0% 100%);
+        background-color:#eeb4aa;
+        top: -40px;
+    }
+    
+}

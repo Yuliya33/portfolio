@@ -1,0 +1,44 @@
+.about{
+    background-color: #f6e6e0;
+    height: 100vh;
+    .title{
+        h1{ 
+            color: #1c2273;
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+    }
+    .content{
+        display: flex;
+        .imgProfile{
+            flex: 0 0 40%;
+            max-width: 40%;
+            img{
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+            }
+        }
+        .text{
+            flex: 0 0 50%;
+            max-width: 50%;
+            h4{
+                color: #7689d8;
+                font-size: 30px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            p{
+                line-height: 1.7;
+                font-size: 20px;
+                margin-bottom: 15px;
+                span{
+                    color: #394ff4;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+}

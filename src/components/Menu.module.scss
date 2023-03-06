@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(57, 79, 244, 0.9);
+    list-style: none;
+    padding: 32px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3000;
+    li{
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 27px 11px;
+            font-weight: 600;
+            font-style: italic;
+            font-size: 23px;
+        }
+    }
+    
+}

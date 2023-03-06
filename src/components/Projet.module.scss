@@ -1,0 +1,36 @@
+.projet{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    .projetContent{
+        flex: 0 0 50%;
+        max-width: 50%;
+        h3{
+            color: #1c2273;
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 40px;
+            line-height: 1.2;
+            span{
+                color: #394ff4;
+                font-weight: 600;
+            }
+        }
+
+    }
+    .projetImage{
+        flex: 0 0 40%;
+        max-width: 40%;
+        &.projetImageLeft{
+            order: -1;
+        }
+        img{     
+            box-shadow: 0px 2px 13px 2px rgba(0,0,0,0.9);
+            border-radius: 5px;
+        }
+    }
+}

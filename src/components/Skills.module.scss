@@ -1,0 +1,50 @@
+.skills{
+    background-color:#eeb4aa;
+    padding-top: 100px;
+    h2{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    h3{
+        color: #1c2273;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .skillsIcons{
+        font-size: 60px;
+        color: white;
+        max-width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        .skillsIconsColumn{
+            flex: 0 0 100%;
+            max-width: 100%;
+            display: flex;
+            margin-bottom: 20px;
+            margin-left: -30px;
+        }
+        div{
+            flex: 0 0 100px;
+            max-width: 100px;
+            padding: 0 10px;
+            text-align: center;
+        }
+    }
+    h4{
+        color: #7689d8;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}

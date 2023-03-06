@@ -1,0 +1,41 @@
+.header{
+    position: relative;
+    background-color: #48d8a4;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 390px;
+        height: 458px;
+        background: url('../../public/images/leafy-branch.svg') center/cover no-repeat;
+        transform: rotate(152deg) scale(0.7);
+        top: -150px;
+        left: -60px;
+        z-index: 0;
+
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        width: 362px;
+        height: 446px;
+        background: url('../../public/images/main-flower.svg') center/cover no-repeat;
+        z-index: 1;
+        bottom: -350px;
+        right: -10px;
+        transform: scale(0.9);
+    }
+    .title{
+        margin-top: 200px;
+    }
+    h1{
+        color: white;
+        font-size: 40px;
+        line-height: 1.43;
+        font-family: poppins;
+
+    }
+}
