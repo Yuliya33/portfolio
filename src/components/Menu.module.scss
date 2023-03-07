@@ -16,6 +16,24 @@
             font-weight: 600;
             font-style: italic;
             font-size: 23px;
+            position: relative;
+            &:hover{
+                &::before{
+                    width: calc(100% - 50px);
+                } 
+
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 4px;
+                background-color: #f48480;
+                bottom: -5px;
+                left: 50%;
+                transform: translateX(-50%);
+                transition: width 0.3s ease-in-out;         
+            }
         }
     }
     
