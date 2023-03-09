@@ -3,7 +3,7 @@ import Container from './Container';
 
 function About(){
     return(
-        <div className={classes.about}>
+        <div className={classes.about} id="section-about">
           <Container>
           <div className={classes.title}>
             <h1>Qui je suis?</h1> 

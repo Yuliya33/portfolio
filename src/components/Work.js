@@ -47,7 +47,7 @@ function Work(){
     ];
 
     return(
-        <div className={classes.work}>
+        <div className={classes.work} id="section-work">
             <Container>
                <h2>MES TRAVAUX</h2>
                {DATA.map((projet) => {
