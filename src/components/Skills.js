@@ -3,10 +3,6 @@ import Container from './Container';
 
 function Skills(){
 
-    function Test(){
-        return "TEST";
-    }
-
     return(
         <div className={classes.skills} id="section-skills">
             <Container>
