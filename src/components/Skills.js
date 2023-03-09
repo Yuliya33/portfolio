@@ -4,7 +4,7 @@ import Container from './Container';
 function Skills(){
 
     return(
-        <div className={classes.skills} id="section-skills">
+        <div className={classes.skills} id="section-skills" >
             <Container>
                 <h2>COMPÉTENCES ET OUTILS</h2>
                 <h3>Ma boîte à outils et les choses que je peux faire</h3>
