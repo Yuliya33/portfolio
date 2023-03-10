@@ -38,3 +38,11 @@
        } 
     }
 }
+
+@media(max-width: 400px){
+    .bouton{
+        a{
+            padding: 15px 8px;
+        }
+    }
+}

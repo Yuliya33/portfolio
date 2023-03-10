@@ -10,7 +10,6 @@ function Skills(){
                 <h3>Ma boîte à outils et les choses que je peux faire</h3>
                 <p>Les compétences, outils et technologies que j'utilise pour donner vie à vos produits :</p>
                 <div className={classes.skillsIcons}>
-                    <div className={classes.skillsIconsColumn}>
                         <div>
                             <i className="devicon-html5-plain"></i>
                             <p>HTML5</p>
@@ -39,8 +38,6 @@ function Skills(){
                             <i className="devicon-sass-original"></i>
                             <p>SASS</p>
                         </div>
-                    </div>
-                    <div className={classes.skillsIconsColumn}>
                         <div>
                             <i className="devicon-visualstudio-plain"></i>
                             <p>VS Code</p>
@@ -69,7 +66,6 @@ function Skills(){
                             <img src="/images/icon-tablet-phone-and-browser.svg" alt="icon of tablet, phone and browser window."/>
                             <p>Responsive Websites</p>
                         </div>
-                    </div>
                 </div>
                 <h4>Travaille actuellement sur :</h4>
                 <p>Améliorer mes compétences et ma compréhension de JavaScript et de React.</p>

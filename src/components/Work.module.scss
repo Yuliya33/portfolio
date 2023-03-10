@@ -9,3 +9,12 @@
         margin-bottom: 30px;
     }
 }
+
+@media(max-width: 767px){
+    .work{
+        h2{
+          text-align: center;
+        }
+    }
+    
+}

@@ -1,6 +1,7 @@
 .skills{
     background-color:#eeb4aa;
     padding-top: 100px;
+    overflow: hidden;
     h2{
         color: white;
         font-size: 20px;
@@ -20,23 +21,16 @@
     .skillsIcons{
         font-size: 60px;
         color: white;
-        max-width: 700px;
+        max-width: 850px;
         display: flex;
         flex-wrap: wrap;
         img{
             width: 40px;
             height: 40px;
         }
-        .skillsIconsColumn{
-            flex: 0 0 100%;
-            max-width: 100%;
-            display: flex;
-            margin-bottom: 20px;
-            margin-left: -30px;
-        }
         div{
-            flex: 0 0 100px;
-            max-width: 100px;
+            flex: 0 0 11%;
+            max-width: 11%;
             padding: 0 10px;
             text-align: center;
         }
@@ -46,5 +40,21 @@
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 991px){
+    .skills{
+        .skillsIcons{
+            justify-content: center;
+            div{
+                flex: 0 0 100px;
+                max-width: 100px;
+                padding: 0 10px;
+                text-align: center;
+            }
+        }
+        h4{
+        }
     }
 }

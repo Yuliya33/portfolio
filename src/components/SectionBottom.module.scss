@@ -15,6 +15,7 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 16%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 16%);
         background-color: #48d8a4;
+        bottom: 3px;
     
     }
 }
@@ -45,4 +46,11 @@
         top: -40px;
     }
     
+}
+
+
+@media(max-width: 1199px){
+    .sectionbottom{
+        height: 100px;    
+    }
 }
