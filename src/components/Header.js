@@ -2,6 +2,7 @@ import classes from './Header.module.scss';
 
 function Header(){
     return (
+      <section>
         <div className={classes.header} id="section-home">
           <div className={classes.title}>
             <h1>Bonjour,</h1> 
@@ -10,6 +11,7 @@ function Header(){
             <h1>Je suis ravi de partager avec vous mon portfolio!</h1>
           </div>          
         </div>
+      </section>
 
     );
 }
