@@ -129,7 +129,12 @@ header{
       display: flex;
       flex-direction: column;
       right: 0; 
-      transition: right .3s ease-in-out;       
+      transition: right .3s ease-in-out; 
+      
+      @media(max-width: 575px){
+        width: 100%;
+        text-align: center;
+      }
     }
 
   }
