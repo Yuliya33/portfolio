@@ -142,19 +142,19 @@ section{
         &::before{
             max-width: 200px;
             height: 100%;
-            top: -195px;
+            top: -165px;
             left: -23px;
         }
         &::after{
             width: 150px;
             height: 100%;
-            bottom: -350px;
+            bottom: -330px;
             right: 13px;
         }
         .header{
-            height: calc(100vh - 290px);
+            height: 500px;
             .title{
-                margin-top: 200px;
+                margin-top: 125px;
             }
             h1{
                 font-size: 18px;
