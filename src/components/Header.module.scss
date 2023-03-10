@@ -7,7 +7,7 @@ section{
         height: 458px;
         background: url('../../public/images/leafy-branch.svg') center/cover no-repeat;
         transform: rotate(152deg) scale(0.7);
-        top: -150px;
+        top: -84px;
         left: -60px;
         z-index: 1;
 
@@ -52,14 +52,14 @@ section{
             max-width: 350px;
             height: 100%;
             background: url('../../public/images/leafy-branch.svg') center/contain no-repeat;
-            top: -123px;
+            top: -191px;
             left: -24px;
         }
         &::after{
             width: 300px;
             height: 100%;
             background: url('../../public/images/main-flower.svg') center/contain no-repeat;
-            bottom: -350px;
+            bottom: -485px;
             right: 25px;
         }
 
@@ -83,13 +83,13 @@ section{
         &::before{
             max-width: 300px;
             height: 100%;
-            top: -120px;
+            top: -220px;
             left: -45px;
         }
         &::after{
             width: 250px;
             height: 100%;
-            bottom: -350px;
+            bottom: -390px;
             right: 25px;
         }
 
@@ -111,13 +111,13 @@ section{
         &::before{
             max-width: 250px;
             height: 100%;
-            top: -73px;
+            top: -170px;
             left: -28px;
         }
         &::after{
             width: 200px;
             height: 100%;
-            bottom: -287px;
+            bottom: -340px;
             right: 25px;
         }
         .header{
@@ -141,13 +141,13 @@ section{
         &::before{
             max-width: 200px;
             height: 100%;
-            top: -73px;
+            top: -195px;
             left: -23px;
         }
         &::after{
             width: 150px;
             height: 100%;
-            bottom: -249px;
+            bottom: -350px;
             right: 13px;
         }
         .header{
