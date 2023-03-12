@@ -9,11 +9,13 @@ import Container from './components/Container';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Footer from './components/Footer';
+import CheckIp from './components/CheckIp';
 
 
 function App() {
   return (
     <div>
+      <CheckIp/>
       <Menu/>
       <Header/>
       <SectionBottom clipath="clipath1"/>
