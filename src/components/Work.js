@@ -7,6 +7,26 @@ function Work(){
     const DATA = [
         {
             id: 1,
+            title: "Projet 'scroll-animation'",
+            description: "Voici des conseils comment devenir un bon développeur Front-End!",
+            skills: "Javascript, HTML, CSS.",
+            imgSrc: "/images/works/scroll-animation.jpg",
+            imgAlt: "image scroll",
+            linkSiteWeb: "https://scroll-animation13.netlify.app/",
+            linkGitHub: "https://github.com/Yuliya33/scroll-animation"
+        },
+        {
+            id: 2,
+            title: "Projet 'rotating navigation'",
+            description: "Exemple d'un blog avec une belle animation de navigation",
+            skills: "Javascript, HTML, CSS.",
+            imgSrc: "/images/works/rotating-nav.jpg",
+            imgAlt: "image rotating nav",
+            linkSiteWeb: "https://rotating-navigation13.netlify.app/",
+            linkGitHub: "https://github.com/Yuliya33/rotating-navigation"            
+        },
+        {
+            id: 3,
             title: "Projet de Stage",
             description: "Mon stage consistait à créer un site web pour une compagnie logistique, la plus grande partie du travail a été consacré à côté du front-end alors je me suis concentrée sur le désign, j’ai développé une palette de couleurs de base, choisie des polices de caractère(fontes), construit un plan quels les langages programmations je vais utiliser pour réaliser le site web, j'ai choisi",
             skills: "PHP, Javascript, HTML, CSS.",
@@ -15,7 +35,7 @@ function Work(){
             linkSiteWeb: "http://monportfolio.ca/yuliya-polyakova.ca/tlc-1/"
         },
         {
-            id: 2,
+            id: 4,
             title: "Projet JavaScript",
             description: "Le projet est exécuté en utilisant",
             skills: "PHP(Back-end) et Javascript(OOP)",
@@ -25,7 +45,7 @@ function Work(){
             linkGitHub: "https://github.com/Yuliya33/projJavascript"
         },
         {
-            id:3,
+            id:5,
             title: "Projet HTML/CSS",
             description: "Le projet est exécuté en utilisant du propre",
             skills: "html, css, javascript(carousel).",
@@ -35,7 +55,7 @@ function Work(){
             linkGitHub: "https://github.com/Yuliya33/projHTML"
         },
         {
-            id: 4,
+            id: 6,
             title: "Projet PHP",
             description: "Lors de la création du projet, ces technologies ont été utilisées comme propre",
             skills: "PHP avec le modele MVC, propre CSS, mySQL.",
