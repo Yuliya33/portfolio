@@ -1,5 +1,7 @@
 
 import './App.css';
+import 'aos/dist/aos.css';
+import Aos from "aos";
 
 import Menu from './components/Menu';
 import Header from './components/Header';
@@ -10,9 +12,17 @@ import Skills from './components/Skills';
 import Work from './components/Work';
 import Footer from './components/Footer';
 import CheckIp from './components/CheckIp';
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: "ease"
+    });
+  });
+
   return (
     <div>
       <CheckIp/>

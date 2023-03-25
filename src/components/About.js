@@ -6,13 +6,13 @@ function About(){
         <div className={classes.about} id="section-about">
           <Container>
           <div className={classes.title}>
-            <h1>Qui je suis?</h1> 
+            <h1 data-aos="fade-right">Qui je suis?</h1> 
           </div>    
           <div className={classes.content}>
-            <div className={classes.imgProfile}>
+            <div className={classes.imgProfile} data-aos="fade-right">
                 <img src="/images/photo.jpg" alt=" photo Yuliya Polyakova"/>
             </div>
-            <div className={classes.text}>
+            <div className={classes.text}  data-aos="fade-left">
                 <h4>Une développeuse front-end motivée par la curiosité avec des capacités de conception</h4>
                 <p>Je suis une personne dynamique et motivée, qui apprécie le travail en équipe et est capable de s'adapter rapidement à de nouvelles situations et très passionnée par la belle partie de Front End. 
                    Je suis très heureux lorsque je crée, apprends, explore et réfléchis à la façon d'améliorer les choses.</p> 

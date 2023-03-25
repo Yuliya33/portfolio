@@ -13,13 +13,13 @@ function Projet(props){
 
     return(
         <div className={classes.projet}>  
-               <div className={classes.projetContent}>
+               <div className={classes.projetContent} data-aos={"fade-" + (isOdd(props.id) ? "right" : "left") }>
                     <h3>{props.title}</h3>
                     <p>{ props.description } <span>{props.skills}</span></p>
                     <Bouton link={props.linkSiteWeb}>Voir le Site Web</Bouton>
                     { props.linkGitHub ?  <Bouton link={props.linkGitHub}>Voir GitHub</Bouton> : ""}
                 </div>   
-                <div className={classes.projetImage + " " + (isOdd(props.id) ? "" : classes.projetImageLeft)}>
+                <div className={classes.projetImage + " " + (isOdd(props.id) ? "" : classes.projetImageLeft)} data-aos="flip-left">
                     <img src={props.imgSrc} alt={props.imgAlt}/> 
                 </div>   
       </div>

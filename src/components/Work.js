@@ -79,7 +79,7 @@ function Work(){
     return(
         <div className={classes.work} id="section-work">
             <Container>
-               <h2>MES TRAVAUX</h2>
+               <h2 data-aos="fade-down">MES TRAVAUX</h2>
                {DATA.map((projet) => {
                     return <Projet 
                                 id={projet.id} 

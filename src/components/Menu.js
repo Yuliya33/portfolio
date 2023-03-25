@@ -30,7 +30,7 @@ function Menu(){
 
     return (
         <>
-        <header>
+        <header data-aos="fade-down">
             <nav ref={navMobile} className={`${buttonClicked ? classes.open : ''} ${isMobile ? classes.mobile : ''}`}>
                 <ul className={classes.menu}>
                     <li><a href="#section-home" onClick={scrollDownHandler}>Accueil</a></li>

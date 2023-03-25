@@ -4,12 +4,12 @@ import Container from './Container';
 function Skills(){
 
     return(
-        <div className={classes.skills} id="section-skills">
+        <div className={classes.skills} id="section-skills" >
             <Container>
-                <h2>COMPÉTENCES ET OUTILS</h2>
-                <h3>Ma boîte à outils et les choses que je peux faire</h3>
-                <p>Les compétences, outils et technologies que j'utilise pour donner vie à vos produits :</p>
-                <div className={classes.skillsIcons}>
+                <h2 data-aos="fade-up">COMPÉTENCES ET OUTILS</h2>
+                <h3 data-aos="fade-up" data-aos-delay="100">Ma boîte à outils et les choses que je peux faire</h3>
+                <p data-aos="fade-up" data-aos-delay="150">Les compétences, outils et technologies que j'utilise pour donner vie à vos produits :</p>
+                <div className={classes.skillsIcons} data-aos="fade-up" data-aos-delay="200">
                         <div>
                             <i className="devicon-html5-plain"></i>
                             <p>HTML5</p>
@@ -67,8 +67,8 @@ function Skills(){
                             <p>Responsive Websites</p>
                         </div>
                 </div>
-                <h4>Travaille actuellement sur :</h4>
-                <p>Améliorer mes compétences et ma compréhension de JavaScript et de React.</p>
+                <h4 data-aos="fade-up" data-aos-delay="150">Travaille actuellement sur :</h4>
+                <p data-aos="fade-up" data-aos-delay="200">Améliorer mes compétences et ma compréhension de JavaScript et de React.</p>
             </Container>
       </div>
     );
