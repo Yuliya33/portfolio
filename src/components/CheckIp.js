@@ -22,9 +22,9 @@ export default function CheckIp() {
   const getData = async () => {
     const res = await axios.get('https://geolocation-db.com/json/')
 
-    let myIp = "142.184.85.102";
+    let ips = ["142.118.38.228"];
     let ip = res.data.IPv4;
-    if(ip===myIp) ip = "My notebook";
+    if(ips.indexOf(ip) !== -1) ip = ip +"-Mine";
 
     const ipData = {
       ip: ip,
@@ -35,9 +35,7 @@ export default function CheckIp() {
     }
 
     if(!ipAdded.current) addIp(ipData);
-    ipAdded.current = true;
-
-    
+    ipAdded.current = true;  
 
 
   }
